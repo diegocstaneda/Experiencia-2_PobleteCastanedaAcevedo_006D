@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-login{
+    width: 400px;
+    height: 340px;
+    background:black ;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px green;
+    padding: 20px 30px;
+    color: white;
+    border-top: 4px  solid green;
+}
+.form-login h2 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls{
+    width: 100%;
+    border: 1px solid green;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: white;
+}
+
+.buttons{
+    width: 100%;
+    height: 40px;
+    background: black;
+    border-color: green;
+    color: white;
+    box-shadow: 7px 8px 28px green;
+}
+
+.form-login p{
+    height: 40px;
+    text-align: center;
+}
+
+.form-login a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.fondo{
+    background-color: black;
+} 
+
+.color{
+    color: white;
+}
+
+h3{
+    color:black;
+    font-family:fantasy;
+}
+
+
+
+.carousel-control-prev-icon {
+    background-image: none;
+    color: green;
+    font-size: 20px;
+  }
+
+
+iframe
+{
+    margin-top:100px;
+}
+
+h7
+{
+    color:white;
+    text-align: center;
+}
+h5{
+    margin: 300px;
+    color:#000000;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Mision{
+    text-align: center;
+    margin-top: 50px;
+    color:#000000;
+    font-family:Copperplate, Papyrus, fantasy;
+    
+    
+}
+.Misiont
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    color:#0c0c0c;
+    
+    margin-right: 100px;
+    
+   
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Quienes
+{
+    text-align: center;
+    color:#000000;
+    font-family:Copperplate, Papyrus, fantasy;
+    
+}
+.Quienest
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Vision
+{
+    text-align: center;
+    color:#000000;
+    font-family:Copperplate, Papyrus, fantasy;
+
+}
+.Visiont
+{
+    margin-left: 100px;
+    margin-right: 100px;
+
+    font-family:Arial, Helvetica, sans-serif;
+}  
+img.mision
+{
+    float:center;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: auto;
+    
+    
+}
+img.vision
+{
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    float:center;
+    height: auto;
+    
+    
+}  
+
+#Quienesvid
+{
+    float: left;
+    width:50%;
+    margin-bottom: 100px;
+   
+    
+} 
+#Quienest
+{
+    float:left;
+    width:50%;
+    margin-bottom: 250px;
+    
+    
+}
+    
+
+#Misionf
+{
+    float: left;
+    width:50%;
+    margin-bottom: 50px;
+    
+    
+    
+}
+#Misiont
+{
+    float: right;
+    width:50%;
+    
+    margin-bottom: 100px;
+   
+}
+#Visionf
+{
+    
+    
+    float: right;
+    width:50%;
+    margin-bottom: 100px;
+    
+    
+}
+#Visiont
+{
+    float:left;
+    width:50%;
+    margin-bottom: 400px;
+    
+    
+}
+
+
+@media screen and (max-width: 1900px)
+{
+    h4{
+        font-weight: 200;;
+        color:black;
+    }
+        .table thead{
+            display: none;
+        }
+        .table,.table thead, .table tbody, .table tr, .table td, .table th{
+            display: block;
+            width: 100%;
+        }
+        .table tr{
+            margin-bottom: 15px;
+        }
+        .table th{
+            margin-bottom: 15px;
+        }
+        .table td{
+            text-align: center;
+            padding-left: auto;
+            text-align: center;
+            position: relative;
+        }
+        .table td::before{
+            content: attr(data-label);
+            position: absolute;
+            left: 0;
+            width: 50%;
+            padding-left: 15px;
+            font-size: 15px;
+            font-weight: bold;
+    
+        }
+    #Quienest
+    {width: 100%;
+    margin-bottom: 100px;}
+    #Quienesvid
+    {width: 100%;
+    text-align: center;}
+    #Misiont
+    {width: 100%;
+    
+    }
+    #Misionf
+    {width: 100%;
+    text-align: center;
+    
+    }
+    #Visiont
+    {width: 100%;
+    margin-bottom: 100px;}
+    #Visionf
+    {width: 100%;
+    margin-left:  0px;
+    margin-right: 0px;
+    text-align: center;
+    
+    }
+
+    img.mision
+{
+    float:center;
+    height: auto;
+    width: 400px;
+    height: 200px;
+    margin-left:  0px;
+    margin-right: 0px;
+    
+    
+}
+img.vision
+{
+    float:center;
+    height: auto;
+    width: 400px;
+    height: 200px;
+    margin-left:  0px;
+    margin-right: 0px;
+    
+    
+}
+h7
+{
+    margin-left: 400px;
+    color: white;
+}
+iframe
+{
+    margin-top:100px;
+    width: 400px;
+    height: 200px;
+    
+}
+
+ 
+}
